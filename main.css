@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@100;200;400;700&family=Roboto:wght@100;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+ }
+body{
+    display: flex;
+    margin: 100px auto ;
+    justify-content: center;
+    text-align: center;
+    background-color: #0F62FE;
+ }
+.container{
+    position: relative;
+    /* height: 500px;
+    max-height: 100%; */
+    width: 350px;
+    max-width: 100%;
+    background-color: #fff;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 2rem;
+}
+/* h2{
+   padding: 20px 0 0 ;
+}  */
+.inp-text{
+    outline: none;
+    border: none;
+    pointer-events: none;
+    text-align: right;
+    height: 4rem;
+    width: 100%;
+    font-size: 1.5rem;
+    margin: .8rem 0;
+    padding: .8rem;
+    border-radius: .6rem;
+    color: #000e10;
+    background-color: #eeeeee94;
+    
+}
+.buttons{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 1rem;
+}
+.buttons button{
+    padding: .7rem;
+    border-radius: .6rem;
+    border: none;
+    cursor: pointer;
+    background-color: #eee;
+    font-size: 1.3rem;
+}
+.buttons button:active{
+    transform: scale(0.99);
+}
+.operator{
+    color: #2f9fff;
+}
+.btn-bg-del{
+    background-color: #68ff8f !important ;
+}
+.btn-bg-ac{
+    background-color: #FF4D01 !important ;
+}
