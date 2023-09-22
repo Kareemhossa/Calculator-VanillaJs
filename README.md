@@ -1,6 +1,7 @@
 # Calculator-Vanilla-JS
 
-Calculator-Vanilla-JS is a simple web-based calculator application built using HTML, CSS, and JavaScript. It provides basic arithmetic operations and a user-friendly interface for performing calculations.
+Calculator-Vanilla-JS is a simple web-based calculator application built using HTML, CSS, and JavaScript.
+It provides basic arithmetic operations and a user-friendly interface for performing calculations.
 
 ## Features:
 
@@ -29,10 +30,5 @@ You can try the Calculator-Vanilla-JS online by [(https://kareemhossa.github.io/
 ## Contributing:
 
 If you'd like to contribute to this project, feel free to submit a pull request. Bug fixes, improvements, and new features are always welcome.
-
-## License:
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
 
 
